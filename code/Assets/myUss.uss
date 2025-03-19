@@ -1,0 +1,33 @@
+TextField > TextInput {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-width: 0px;
+    font-size: 25px;
+}
+Label{
+    background-color: rgba(255,255,255,255);
+    padding-left: 10px;
+    border-radius : 10px;
+    width: 60%;
+}
+
+
+.unity-scroller--vertical {
+
+background-color: rgba(0, 0, 0, 255);
+
+border-left-color: rgba(0, 0, 0, 0);
+
+border-right-color: rgba(0, 0, 0, 0);
+
+border-top-color: rgba(0, 0, 0, 0);
+
+border-bottom-color: rgba(0, 0, 0, 0);
+
+}
+
+Button{
+    border-radius:10px;
+    background-color: rgba(255,255,255,255);
+    border-color: rgba(0,0,0,255);
+    border-width: 0px 2px 2px 0px;
+}

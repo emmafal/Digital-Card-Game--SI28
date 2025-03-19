@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/myUss.uss?fileID=7433441132597879392&amp;guid=7615eabd3b637ac46a83e76574a39472&amp;type=3#myUss" />
+    <ui:VisualElement name="Screenspace" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement style="flex-grow: 1; flex-basis: 70%;" />
+        <ui:VisualElement name="textContainer" style="flex-grow: 1; height: auto; width: auto; top: auto; bottom: auto; flex-basis: 30%; flex-shrink: 1; color: rgba(0, 0, 0, 0);">
+            <ui:TextField picking-mode="Ignore" name="storyBox" multiline="true" auto-correction="false" focusable="false" readonly="true" is-delayed="false" style="flex-grow: 1; flex-shrink: 1; -unity-text-align: upper-center; font-size: 40%; flex-direction: row; align-items: stretch; align-self: auto; justify-content: flex-start; width: auto; height: auto; white-space: normal; color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(209, 72, 72); background-color: rgba(0, 0, 0, 0); flex-wrap: nowrap; text-overflow: ellipsis; opacity: 1; -unity-text-outline-color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:TextField picking-mode="Ignore" name="fullStoryBox" multiline="true" auto-correction="false" focusable="false" readonly="true" is-delayed="false" value="fvdsvxvdsvdsvds" style="flex-grow: 1; flex-shrink: 1; -unity-text-align: upper-center; font-size: 40%; flex-direction: row; align-items: stretch; align-self: auto; justify-content: flex-start; width: 100%; height: 100%; white-space: normal; color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(209, 72, 72); background-color: rgb(0, 0, 0); flex-wrap: nowrap; text-overflow: ellipsis; opacity: 1; -unity-text-outline-color: rgb(0, 0, 0); position: absolute; left: 0; top: 0; right: auto; display: none; padding-top: 2px; padding-right: 4px; padding-bottom: 2px; padding-left: 4px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:VisualElement style="flex-grow: 1; position: absolute; top: 10px; right: 0;">
+            <ui:Button text="Rejouer" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Rejouer" style="position: relative; -unity-font-style: bold; font-size: 30px;" />
+            <ui:Button text="Voir mon récit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Voir" style="position: relative; -unity-font-style: bold; font-size: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
