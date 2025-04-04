@@ -5,6 +5,8 @@ The game is an interactive storytelling digital card game where each card is a s
 ## Story Overview
 It is concerning a professor who lost the final exams, and students must explore multiple sites to gain clues and repair the puzzle.
 
+![image](https://github.com/user-attachments/assets/a0ea5910-215d-439c-9101-c82f53964517)
+
 ## Repository Structure
 - **`/report`** → Research and design documentation.
 - **`/code`** → Mechanics and implementation of the game.
